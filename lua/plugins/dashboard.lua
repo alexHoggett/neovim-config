@@ -13,7 +13,8 @@ return {
         disable_move = true,  -- boolean default is false disable move key
         shortcut = {
           -- action can be a function type
-          { desc = "Files", group = 'DashboardHeader', key = 'z', action = 'Telescope find_files' },
+          { desc = "Find Files", group = 'DashboardHeader', key = 'z', action = 'Telescope find_files' },
+          { desc = "Open File Tree", group = 'DashboardHeader', key = 'x', action  = 'Neotree filesystem reveal left' }
         },
       }
     }
